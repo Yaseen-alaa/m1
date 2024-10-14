@@ -1,0 +1,98 @@
+.d1 {
+    text-align: center;
+    width: 275px;
+    height: 380px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+    float: left;
+    margin-top: 10px;
+}
+.dd {
+    margin-left: 85px;
+}
+.d1 img {
+    transition: 0.5s;
+    margin-left: -138px;
+}
+.ii1 {
+    position: absolute;
+    z-index: 1;
+}
+.ii2 {
+position: absolute;
+}
+.d1:hover .ii1 {
+  opacity: 0;
+}
+.d1:hover .ii2 {
+    opacity: 1;
+}
+.d1 h2 {
+    font-size: 19px;
+    position: absolute;
+    bottom: 14;
+}
+.d1 p {
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -2;
+}
+.d1 button {
+    width: 80px;
+    height: 29px;
+    position: absolute;
+    border: 0;
+    background-color: rgb(211, 204, 204);
+    bottom: 0;
+    right: 0;
+    margin-bottom: -2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+body {
+    background-color: rgba(233, 232, 225, 0.877);
+    height: 150vh;
+}
+.btn1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:40px ;
+    margin-left: 80px;
+    width: 150px;
+    font-size: 20px;
+    height: 50px;
+    border: 0.5px solid gray;
+    border-radius: 13px 5px;
+    background-color: rgb(192, 192, 173);
+    float: left;
+}
+.total {
+    width: 130px;
+    height: 50px;
+    float: left;
+    margin-top:40px ;
+    margin-left: 10px;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.total p {
+    margin-top: 10px;
+}
+.tot {
+    width: 130px;
+    height: 150px;
+    float: left;
+    margin-top:40px ;
+    margin-left: 10px;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
